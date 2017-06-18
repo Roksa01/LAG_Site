@@ -18,6 +18,10 @@ p {
   line-height: 2rem;
 }
 
+#map{
+  text-align: center; !important;
+}
+
 .parallax-container {
   min-height: 580px;
   line-height: 0;
