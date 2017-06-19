@@ -88,26 +88,26 @@ footer.page-footer {
 .events{
   font-size: 1.2rem;
 }
-/*.card-image img {*/
-  /*-webkit-filter: grayscale(100%);*/
-  /*-moz-filter: grayscale(100%);*/
-  /*-ms-filter: grayscale(100%);*/
-  /*-o-filter: grayscale(100%);*/
-  /*filter: grayscale(100%);*/
-  /*filter: gray;*/
-  /*-webkit-transition: all 1s;*/
-  /*-moz-transition: all 1s;*/
-  /*-o-transition: all 1s;*/
-  /*transition: all 1s;*/
-/*}*/
-/*.card-image img:hover {*/
-  /*-webkit-filter: none;*/
-  /*-moz-filter: none;*/
-  /*-ms-filter: none;*/
-  /*-o-filter: none;*/
-  /*filter: none;*/
-  /*filter: none;*/
-/*}*/
+.sepiia {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+  filter: gray;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -o-transition: all 1s;
+  transition: all 1s;
+}
+.sepiia:hover {
+  -webkit-filter: none;
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
+  filter: none;
+}
 
 .newsPosition{
   margin-top: 20px;
@@ -167,4 +167,10 @@ footer.page-footer {
   /* icon prefix focus color */
   .input-field .prefix.active {
     color: #ffecb3;
+  }
+
+
+  .teachersDistance{
+    margin-top: 40px;
+    margin-bottom: 80px;
   }
