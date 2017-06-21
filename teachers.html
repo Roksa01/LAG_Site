@@ -3,7 +3,11 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta charset="utf-8">
+
+    <link rel="shortcut icon" href="img/logo.gif">
     <title>LAG | TEACHERS</title>
+
 
     <!-- CSS  -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -12,262 +16,315 @@
 </head>
 <body>
 
-<ul id="dropdown1" class="dropdown-content">
-    <li><a href="#!" class="brown-text text-darken-4">Фото</a></li>
-    <li><a href="#!" class="brown-text text-darken-4">Відео</a></li>
-    <li><a href="#!" class="brown-text text-darken-4">Видання</a></li>
-</ul>
+    <!--Dropdown Items-->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!" class="brown-text text-darken-4">Фото</a></li>
+        <li><a href="video.html" class="brown-text text-darken-4">Відео</a></li>
+        <li><a href="#!" class="brown-text text-darken-4">Видання</a></li>
+    </ul>
 
-<ul id="ForStudents" class="dropdown-content">
-    <li><a href="#!" class="brown-text text-darken-4">Розклад</a></li>
-    <li><a href="#!" class="brown-text text-darken-4">Radio_LAG</a></li>
-    <li><a href="#!" class="brown-text text-darken-4">Парламент</a></li>
-    <li><a href="#!" class="brown-text text-darken-4">Світ Гімназії</a></li>
-</ul>
-<div class="navbar-fixed">
+    <ul id="ForStudents" class="dropdown-content">
+        <li><a href="#!" class="brown-text text-darken-4">Розклад</a></li>
+        <li><a href="#!" class="brown-text text-darken-4">Radio_LAG</a></li>
+        <li><a href="#!" class="brown-text text-darken-4">Парламент</a></li>
+        <li><a href="#!" class="brown-text text-darken-4">Світ Гімназії</a></li>
+    </ul>
 
-    <nav class="red darken-4" role="navigation">
-        <div class="nav-wrapper ">
-            <a id="logo-container" href="#" class="brand-logo white-text">ЛАГ</a>
-            <ul class="right hide-on-med-and-down white-text">
-                <li class="white-text"><a href="#">Головна</a></li>
-                <li class="white-text"><a href="#">Новини</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="ForStudents">Учням<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li class="white-text"><a href="#">Вступникам</a></li>
-                <li class="white-text"><a href="#">Євроклуб</a></li>
-                <li class="white-text"><a href="#">Досягнення</a></li>
-                <li class="white-text active"><a href="#">Вчителі</a></li>
-                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Медіа<i class="material-icons right">arrow_drop_down</i></a></li>
-                <li class="white-text"><a href="#">Випускники</a></li>
+    <!--Menu-->
+    <div class="navbar-fixed">
+        <nav class="red darken-4" role="navigation">
+            <div class="nav-wrapper ">
 
-            </ul>
+                <a id="logo-container" href="index.html" class="brand-logo white-text">ЛАГ</a>
 
-            <ul id="nav-mobile" class="side-nav">
-                <li><a href="#">Головна</a></li>
-                <li><a href="#">Новини</a></li>
-                <li><a href="#">Учням</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">Розклад</a></li>
-                <li><a href="#!">Radio_LAG</a></li>
-                <li><a href="#!">Парламент</a></li>
-                <li><a href="#!">Світ Гімназії</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Вступникам</a></li>
-                <li><a href="#">Євроклуб</a></li>
-                <li><a href="#">Досягнення</a></li>
-                <li class="active"><a href="#">Вчителі</a></li>
-                <li><a href="#">Медіа</a></li>
-                <li class="divider"></li>
-                <li><a href="#!">Фото</a></li>
-                <li><a href="#!">Відео</a></li>
-                <li><a href="#!">Видання</a></li>
-                <li class="divider"></li>
-                <li><a href="#">Випускники</a></li>
-            </ul>
-            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-        </div>
-    </nav>
-</div>
+                <ul class="right hide-on-med-and-down white-text">
+                    <li class="white-text"><a href="index.html">Головна</a></li>
+                    <li class="white-text"><a href="#">Новини</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="ForStudents">Учням<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="white-text"><a href="#">Вступникам</a></li>
+                    <li class="white-text"><a href="#">Євроклуб</a></li>
+                    <li class="white-text"><a href="#">Досягнення</a></li>
+                    <li class="white-text active"><a href="teachers.html">Вчителі</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Медіа<i class="material-icons right">arrow_drop_down</i></a></li>
+                    <li class="white-text"><a href="#">Випускники</a></li>
+                </ul>
+
+                <!-- Mobile menu -->
+                <ul id="nav-mobile" class="side-nav">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="#">Новини</a></li>
+                    <li><a href="#">Учням</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Розклад</a></li>
+                    <li><a href="#!">Radio_LAG</a></li>
+                    <li><a href="#!">Парламент</a></li>
+                    <li><a href="#!">Світ Гімназії</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Вступникам</a></li>
+                    <li><a href="#">Євроклуб</a></li>
+                    <li><a href="#">Досягнення</a></li>
+                    <li class="active"><a href="teachers.html">Вчителі</a></li>
+                    <li><a href="#">Медіа</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#!">Фото</a></li>
+                    <li><a href="video.html">Відео</a></li>
+                    <li><a href="#!">Видання</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Випускники</a></li>
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+            </div>
+         </nav>
+    </div>
 
 
-<!-- Header Foto -->
-<!--<div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-        <div class="container" id="headerTextPosition">
-            <br><br>-->
-            <!--<h1 class="header center amber-text text-accent-4">HeadLine</h1>-->
-            <!--<div class="row center">-->
-                <!--<h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>-->
+    <!-- Header Foto -->
+    <!--<div id="index-banner" class="parallax-container">-->
+        <!--<div class="section no-pad-bot">-->
+            <!--<div class="container" id="headerTextPosition">-->
+                <!--<br><br>-->
+                <!--<h1 class="header center amber-text text-accent-4">HeadLine</h1>-->
+
+                <!--<div class="row center">-->
+                    <!--<h5 class="header col s12 light">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>-->
+                <!--</div>-->
+
+                <!--<div class="row center">-->
+                    <!--<a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>-->
+                <!--</div> -->
+                <!--<br><br>-->
             <!--</div>-->
-            <!-- <div class="row center">
-              <a href="#" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
-            </div> -->
-            <!--<br><br>
-
-        </div>
-    </div>
-    <div class="parallax"><img  src="img/TeachersHead.jpg" alt="Unsplashed background img 1"></div>
-</div>-->
+        <!--</div>-->
+        <!--<div class="parallax">-->
+            <!--<img  src="img/TeachersHead.jpg" alt="Unsplashed background img 1">-->
+        <!--</div>-->
+    <!--</div>-->
 
 
-<div class="container">
-    <div class="section">
-        <div class="row">
-
-
-            <h3 class="center brown-text text-darken-3 newsPosition ">Вчителі ЛАГ</h3>
-
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator sepiia" src="img/teachers/ava.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#" class="blue-grey-text text-darken-3">Subject</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
-                            ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
-                            sollicitudin ac ipsum in, lacinia consectetur velit.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator sepiia" src="img/teachers/ava.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#" class="blue-grey-text text-darken-3">Subject</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-3">Title<i class="material-icons right">close</i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
-                            ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
-                            sollicitudin ac ipsum in, lacinia consectetur velit.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator sepiia" src="img/teachers/ava.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#" class="blue-grey-text text-darken-3">Subject</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
-                            ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
-                            sollicitudin ac ipsum in, lacinia consectetur velit.</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator sepiia" src="img/teachers/ava.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#" class="blue-grey-text text-darken-3">Subject</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
-                            ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
-                            sollicitudin ac ipsum in, lacinia consectetur velit.</p>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col s12 m4">
-                <div class="card">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator sepiia" src="img/teachers/ava.png">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
-                        <p><a href="#" class="blue-grey-text text-darken-3">Subject</a></p>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
-                            ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
-                            sollicitudin ac ipsum in, lacinia consectetur velit.</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        </div>
-  </div>
-
-
-
-
-
-<footer id="contact" class="page-footer brown darken-4 scrollspy">
-    <div class="distance">
-        <div class="row">
-
-            <div class="col l3 s12 center-align">
-                <img src="img/logo.gif">
-                <p class="grey-text text-lighten-1">©2017 Львівська академічна гімназія</p>
-            </div>
-
-            <div class="col l3 s12">
-                <h5 class="amber-text text-lighten-4">Контакти</h5>
-                <ul>
-
-                    <li><a class="white-text" href="#!"><img class="media" src="img/icons/facebook.svg" width="30"><span class="media-txt">Facebook</span></a></li>
-                    <li><a class="white-text" href="#!"><img class="media" src="img/icons/telegram.svg" width="30">Telegram</a></li>
-                    <li><a class="white-text" href="#!"><img class="media" src="img/icons/phone.svg" width="30">+38 <b>(032)</b> 261-48-60 </a></li>
-                    <li><a class="white-text" href="#!"><img class="media" src="img/icons/mail.svg" width="30">gimnazija_lag1@ukr.net</a></li>
-                </ul>
-            </div>
-
-            <form class="col l6 s12">
-                <div class="row">
-                    <h5 class="amber-text text-lighten-4">Зворотній зв'язок</h5>
-                    <div class="input-field col s6">
-                        <i class="material-icons prefix white-text">account_circle</i>
-                        <input id="icon_prefix" type="text" class="validate">
-                        <label for="icon_prefix">Ім'я</label>
-                    </div>
-                    <div class="input-field col s6">
-                        <i class="material-icons prefix white-text">mail</i>
-                        <input id="icon_telephone" type="email" class="validate">
-                        <label for="icon_telephone">E-mail</label>
-                    </div>
-                    <div class="input-field col s12">
-                        <i class="material-icons prefix white-text">mode_edit</i>
-                        <textarea id="icon_prefix2" type="text" class="materialize-textarea"></textarea>
-                        <label for="icon_prefix2">Повідомлення</label>
-                    </div>
-                </div>
-            </form>
-
-            <div class="fixed-action-btn">
-                <a class="btn-floating btn-large grey languageSize">UA</a>
-                <ul>
-                    <li><a class="btn-floating pulse red">EN</a></li>
-                    <li><a class="btn-floating pulse yellow darken-1">DE</a></li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-    <div class="footer-copyright">
-        <div class="container">
+    <!--Teachers-->
+    <div class="container">
+        <div class="section">
             <div class="row">
-                <div class="col s12 center-align">
-                    <a class="btn btn-floating pulse lime darken-4" id="map"><i class="material-icons">room</i></a>
+
+                <h3 class="center brown-text text-darken-3 newsPosition ">Вчителі ЛАГ</h3>
+
+                <!--Teacher1-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator sepiia" src="img/teachers/ava.png">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+                            <p>
+                                <a href="#" class="blue-grey-text text-darken-3">Subject</a>
+                            </p>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
+                                ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
+                                sollicitudin ac ipsum in, lacinia consectetur velit.
+                            </p>
+                        </div>
+                    </div>
                 </div>
+
+                <!--Teacher2-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator sepiia" src="img/teachers/ava.png">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+                            <p>
+                                <a href="#" class="blue-grey-text text-darken-3">Subject</a>
+                            </p>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
+                                ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
+                                sollicitudin ac ipsum in, lacinia consectetur velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Teacher3-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator sepiia" src="img/teachers/ava.png">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+                            <p>
+                                <a href="#" class="blue-grey-text text-darken-3">Subject</a>
+                            </p>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
+                                ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
+                                sollicitudin ac ipsum in, lacinia consectetur velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Teacher4-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator sepiia" src="img/teachers/ava.png">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+                            <p>
+                                <a href="#" class="blue-grey-text text-darken-3">Subject</a>
+                            </p>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
+                                ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
+                                sollicitudin ac ipsum in, lacinia consectetur velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--Teacher5-->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator sepiia" src="img/teachers/ava.png">
+                        </div>
+
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Title<i class="material-icons right">more_vert</i></span>
+                            <p>
+                                <a href="#" class="blue-grey-text text-darken-3">Subject</a>
+                            </p>
+                        </div>
+
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Title<i class="material-icons right">close</i></span>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id libero finibus, lacinia dui ullamcorper,
+                                ullamcorper ex. Quisque vitae metus felis. Integer at ante eu turpis rhoncus venenatis. Vivamus sapien enim,
+                                sollicitudin ac ipsum in, lacinia consectetur velit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+
             </div>
         </div>
     </div>
-</footer>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.402705303222!2d24.01010271570923!3d49.83489037939521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add797b42960f%3A0xa9fb78bfd9eb94d8!2z0JvRjNCy0L7QstGB0LrQsNGPINCw0LrQsNC00LXQvNC40YfQtdGB0LrQsNGPINCz0LjQvNC90LDQt9C40Y8!5e0!3m2!1sru!2sua!4v1497821716009" width="100%" height="450px"  frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-<!--  Scripts-->
-<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script src="js/materialize.js"></script>
-<script src="js/init.js"></script>
+
+
+    <!--Footer-->
+    <footer id="contact" class="page-footer brown darken-4 scrollspy">
+        <div class="distance">
+            <div class="row">
+
+                <!--Contacts form  -->
+                <div class="col l3 s12">
+                    <img src="img/logo.gif">
+                    <p class="grey-text text-lighten-1">©2017 Львівська академічна гімназія</p>
+                </div>
+
+                <div class="col l3 s12">
+                    <h5 class="amber-text text-lighten-4">Контакти</h5>
+                    <ul>
+                        <li><a class="white-text" href="#!"><img class="media" src="img/icons/facebook.svg" width="30"><span class="media-txt">Facebook</span></a></li>
+                        <li><a class="white-text" href="#!"><img class="media" src="img/icons/telegram.svg" width="30">Telegram</a></li>
+                        <li><a class="white-text" href="#!"><img class="media" src="img/icons/phone.svg" width="30">+38 <b>(032)</b> 261-48-60 </a></li>
+                        <li><a class="white-text" href="#!"><img class="media" src="img/icons/mail.svg" width="30">gimnazija_lag1@ukr.net</a></li>
+                    </ul>
+                </div>
+
+                <!--Feedback Form  -->
+                <form class="col l6 s12">
+                    <div class="row">
+                        <h5 class="amber-text text-lighten-4">Зворотній зв'язок</h5>
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix white-text">account_circle</i>
+                            <input id="icon_prefix" type="text" class="validate">
+                            <label for="icon_prefix">Ім'я</label>
+                        </div>
+
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix white-text">mail</i>
+                            <input id="icon_telephone" type="email" class="validate">
+                            <label for="icon_telephone">E-mail</label>
+                        </div>
+
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix white-text">mode_edit</i>
+                            <textarea id="icon_prefix2" type="text" class="materialize-textarea"></textarea>
+                            <label for="icon_prefix2">Повідомлення</label>
+                        </div>
+                    </div>
+
+                    <div class="right-align">
+                        <button class="btn waves-effect waves-ligh amber lighten-4 brown-text text-darken-4" type="submit" name="action">Надіслати
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+
+                <!--Language Icon  -->
+                <div class="fixed-action-btn">
+                    <a class="btn-floating btn-large grey languageSize">UA</a>
+                    <ul>
+                        <li><a class="btn-floating pulse red">EN</a></li>
+                        <li><a class="btn-floating pulse yellow darken-1">DE</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Map Icon-->
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col s12 center-align">
+                        <a class="btn btn-floating pulse lime darken-4" id="map"><i class="material-icons">room</i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.402705303222!2d24.01010271570923!3d49.83489037939521!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add797b42960f%3A0xa9fb78bfd9eb94d8!2z0JvRjNCy0L7QstGB0LrQsNGPINCw0LrQsNC00LXQvNC40YfQtdGB0LrQsNGPINCz0LjQvNC90LDQt9C40Y8!5e0!3m2!1sru!2sua!4v1497821716009" width="100%" height="450px"  frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+    <!--  Scripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
 </body>
 </html>

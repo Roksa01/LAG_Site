@@ -178,3 +178,28 @@ footer.page-footer {
   .languageSize{
     font-size: 21px;
   }
+
+  .video-margin{
+    margin-bottom: 50px;
+  }
+
+  .distance-video{
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-top: 65px;
+    margin-bottom: 75px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distance-video{
+      margin-left: 20px;
+      margin-right: 20px;
+      margin-top: 45px;
+      margin-bottom: 45px;
+    }
+}
+
+.newsPositionVideo{
+  margin-top: 20px;
+  margin-bottom: 60px;
+}
