@@ -212,3 +212,10 @@ footer.page-footer {
   height: 250px;
   padding-top: 25%;
 }
+
+.newspaper{
+  width: 100%;
+  height: 480px;
+  border-style: none; !important;
+  border-radius: 2px;
+}
