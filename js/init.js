@@ -9,7 +9,15 @@
         }
     );
     $('.parallax').parallax();
-    $(".dropdown-button").dropdown();
+      $('.slider').slider({
+          height: 530
+      });
+    $('.materialboxed').materialbox();
+      $('.carousel').carousel();
+
+      $(".dropdown-button").dropdown();
+
+
     $("#map").click(function(){
       $("iframe").slideToggle();
     });
